@@ -1,0 +1,55 @@
+.login-form {
+    &.center-wrapper {
+      width: 380px;
+      margin: 0 auto;
+    }
+  
+    .brdr {
+      background: #eeeeee;
+      border: 1px solid;
+    }
+  
+    .txt-branding {
+      font-weight: normal;
+      font-size: 28px;
+    }
+  
+    label {
+      display: block;
+      box-sizing: border-box;
+      margin-bottom: 0;
+  
+      font-weight: bold;
+      font-size: 13px;
+      line-height: 20px;
+      color: #3c3c3c;
+    }
+  
+    input[type="text"],
+    input[type="password"] {
+      margin: 2px 0 15px;
+      padding: 5px;
+  
+      text-transform: uppercase;
+  
+      border: 1px solid #4b72a2;
+    }
+  
+    // div.inside {
+    //   background: url(../assets/login-lock.gif) 300px 20px no-repeat;
+    // }
+  
+    ul {
+      margin: 0;
+      padding: 20px;
+  
+      li {
+        list-style: none;
+      }
+    }
+  
+    #submit-search {
+      margin: 20px 0 0;
+      padding: 5px 15px;
+    }
+  }

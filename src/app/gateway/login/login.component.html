@@ -1,0 +1,46 @@
+<div class="center-wrapper login-form">
+  <h1 class="txt-branding">Contact Center Login</h1>
+  <div class="gates2">
+    <form class="brdr rounded-corners general-form" name="loginForm" method="post">
+      <div class="inside">
+        <ul>
+          <li>
+            <label for="sine-num">Sine Number</label>
+            <input type="password" value="9073" class="half" id="sine-num" name="sineNum" maxlength="4"
+              autocomplete="off" />
+          </li>
+          <li>
+            <label for="agent-sine">Agent Sine</label>
+            <input type="text" value="nf" class="half txt-upper" id="agent-sine" name="agentSine" maxlength="2" />
+          </li>
+          <li>
+            <label for="duty-code">Duty Code</label>
+            <input type="text" value="su" class="half txt-upper" id="duty-code" name="dutyCode" maxlength="2" />
+          </li>
+          <li>
+            <label for="agent-aaa">AAA</label>
+            <input type="text" value="hqc" class="half txt-upper" id="agent-aaa" name="aaa" maxlength="3" />
+          </li>
+          <li>
+            <label for="agent-empId">EMP ID</label>
+            <input type="text" value="v780556" class="half txt-upper" id="agent-empId" name="empId" maxlength="7" />
+          </li>
+          <li>
+            <input type="button" value="Log In" id="submit-search" name="submit-search" class="btn btn-primary" />
+            <div class="alert-danger" ng-if="authHostLoginError">
+              {{authHostLoginError}}
+            </div>
+          </li>
+        </ul>
+      </div>
+    </form>
+  </div>
+  <div class="txt-right">
+    <span>Version: <span id="appVersion"></span></span>
+    <span class="prefix-space">Commit: <span id="appCommit"></span></span>
+  </div>
+</div>
+<!-- <script>
+    document.getElementById("appVersion").innerHTML = appConfig.version;
+    document.getElementById("appCommit").innerHTML = appConfig.commit;
+</script> -->
